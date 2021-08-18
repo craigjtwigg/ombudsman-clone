@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    max-width: 100vw;
+    padding: 1.2rem 4rem;
+    display: flex;
+    background: #440444;
+    color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoWrapper {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: 20px 1fr;
+    grid-template-areas: "logo ombudsman"
+                         "logo services";
+    gap: 0.5rem;   
+    height: 50px;                  
+}
+
+.logoImg {
+    grid-area: logo;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+}
+
+.logoOm {
+    grid-area: ombudsman;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.logoSe {
+    grid-area: services;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.topNav {
+    display: flex;
+    list-style-type: none;
+}
+
+.topNav > li {
+    padding: 1rem 1rem 0px 1rem;
+}
+
+.carat {
+    height: 17px;
+    position: relative;
+    top:2px;
+}
+
+.complainNowBtn {
+    background: #66d9ac;
+    height: 60px;
+    color:#520051;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 1rem 1.5rem;
+    margin-left: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+
+
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+    padding: 4rem 2rem 1rem 4rem; 
+    background-image: radial-gradient(circle at bottom, #520051 50%, #440444 20%);
+
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 0px;
+}
+
+.complainingIsntEasy {
+    color: white;
+}
+
+.weMakeSureItsFair {
+    color: #66d9ac
+}
+
+.intro {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.heroIllustration {
+    position: relative;
+    right: 4rem;
+}
