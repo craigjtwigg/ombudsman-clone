@@ -73,14 +73,13 @@ header {
     margin-left: 1rem;
     border: none;
     border-radius: 0.5rem;
-    transition: all 2s;
-    
+    transition: 0.4s;
+    cursor: pointer;
 }
 
 .complainNowBtn:hover {
-    transition: background 2s;
-     background: radial-gradient(circle at top left, #15b376 70%, #66d9ac 20%);
-     
+     background: #10744d;
+     color: #FFFFFF;
 } 
 
 
@@ -184,6 +183,7 @@ h2 {
     color: #440444;
     font-weight: 400;
     font-size: 1rem;
+    line-height: 2rem;
 }
 
 .beforeComplaintBtn{
@@ -196,4 +196,10 @@ h2 {
     width: 90%;
     padding: 1.5rem;
     cursor: pointer;
+    transition: 0.4s;
+}
+
+.beforeComplaintBtn:hover {
+    background: #10744d;
+    color: #FFFFFF;
 }
