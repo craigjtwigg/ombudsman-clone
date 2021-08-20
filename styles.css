@@ -66,9 +66,10 @@ header {
 .complainNowBtn {
     background: radial-gradient(circle at top left, #15b376 0%, #66d9ac 20%);
     height: 60px;
+    width: 200px;
     color:#520051;
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 700;
     padding: 1rem 1.5rem;
     margin-left: 1rem;
     border: none;
@@ -129,7 +130,7 @@ h2 {
 }
 
 .hello {
-    margin-left: 3rem;
+    margin-left: 5rem;
     align-self: center;
     color: #440444;
     min-width: 500px;
@@ -141,11 +142,11 @@ h2 {
 }
 
 .aboutBtn {
-    width: 60%;
-    font-weight: 900;
+    width: 180px;
+    font-weight: 700;
     padding: 1.5rem;
     font-size: 1.2rem;
-    border: solid #440444 2px;
+    border: solid #440444 1px;
     border-radius: 10px;
     color: #440444;
     background: #FFFFFF;
@@ -189,11 +190,11 @@ h2 {
 .beforeComplaintBtn{
     background: #66d9ac;
     color: #440444;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 1.3rem;
     border: none;
     border-radius: 20px;
-    width: 90%;
+    width: 330px;
     padding: 1.5rem;
     cursor: pointer;
     transition: 0.4s;
@@ -202,4 +203,250 @@ h2 {
 .beforeComplaintBtn:hover {
     background: #10744d;
     color: #FFFFFF;
+}
+
+.whenCanIComplain{
+    background: #FFFFFF;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.whenCanIComplainHeader {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #440444;
+    margin-left: 6.2rem;
+}
+
+.whenCanIComplainVideo{
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+}
+
+.howItWorks {
+    background: #eeeeff;
+    color: #440444;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.howItWorksHeader {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.howItWorksPara {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.process {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr auto 1fr 1fr;
+    grid-template-areas: "one one three three"
+                         "one one three three"
+                         "line line line line"
+                         ". two two four"
+                         ". two two four";
+    width: 100%;   
+    column-gap: 1rem;   
+    height: 600px; 
+    margin-top: 70px;             
+}
+
+.processLine {
+    grid-area: line;
+}
+
+.processHeader {
+    font-size: 1.5rem;
+    align-self: center;
+    justify-self: stretch;
+}
+
+.process1 {
+    grid-area: one;
+    padding-left: 6rem;
+    width: 400px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: 50px 200px;
+    grid-template-areas: "circle1 processhead1"
+                         "horizontal1 processpara1";
+    column-gap: 25px;                    
+}
+
+#circle1 {
+    grid-area: circle1;
+    position: relative;
+    right: 22px;
+    top: 5px;
+}
+
+#numberLine1{
+    grid-area: horizontal1;
+    width: 5px;
+    background: #66d9ac;
+    position: relative;
+    top: 5px;
+    height: 240px;
+}
+
+#processHeader1{
+    grid-area: processhead1;
+}
+
+#processPara1{
+    grid-area: processpara1;
+}
+
+.process2 {
+    position: relative;
+    right: 100px;
+    grid-area: two;
+    padding-left: 6rem;
+    width: 500px;
+    display: grid;
+    column-gap: 25px;  
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: 140px 50px 1fr;
+    grid-template-areas: "horizontal2 ."
+                         "circle2 processhead2"
+                         ". processpara2";
+}
+
+#circle2 {
+    grid-area: circle2;
+    position: relative;
+    right: 22px;
+    bottom: 20px;
+}
+
+#numberLine2{
+    grid-area: horizontal2;
+    width: 5px;
+    background: #66d9ac;
+    position: relative;
+    bottom: 7px;
+    height: 130px;
+}
+
+#processHeader2{
+    grid-area: processhead2;
+    position: relative;
+    bottom: 20px;
+}
+
+#processPara2{
+    grid-area: processpara2;
+    position: relative;
+    bottom: 20px;
+}
+
+
+
+.process3 {
+    position: relative;
+    top: 90px;
+    grid-area: three;
+    padding-left: 6rem;
+    justify-content: start;
+    width: 500px;
+    display: grid;
+    column-gap: 25px;  
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: 50px 400px;
+    grid-template-areas: "circle3 processhead3"
+                         "horizontal3 processpara3";
+}
+
+#circle3 {
+    grid-area: circle3;
+        position: relative;
+    right: 22px;
+    top: 5px;
+}
+
+#numberLine3{
+    grid-area: horizontal3;
+        width: 5px;
+    background: #66d9ac;
+    position: relative;
+    top: 5px;
+    height: 150px;
+}
+
+#processHeader3{
+    grid-area: processhead3;
+}
+
+#processPara3{
+    grid-area: processpara3;
+    width: 100%;
+}
+
+.process4 {
+    grid-area: four;
+    padding-left: 6rem;
+    width: 500px;
+    position: relative;
+    right: 100px;
+    display: grid;
+    column-gap: 25px;  
+    grid-template-columns: 50px 300px;
+    grid-template-rows: 20px 50px 1fr;
+    grid-template-areas: "horizontal4 ."
+                         "circle4 processhead4"
+                         ". processpara4";
+}
+
+#circle4 {
+    grid-area: circle4;
+    position: relative;
+    right: 22px;
+}
+
+#numberLine4{
+    grid-area: horizontal4;
+            width: 5px;
+    background: #66d9ac;
+    position: relative;
+    bottom: 10px;
+    height: 30px;
+}
+
+
+#processHeader4{
+    grid-area: processhead4;
+}
+
+#processPara4{
+    grid-area: processpara4;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background: #00a88f;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.5rem;
 }
