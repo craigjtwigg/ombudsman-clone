@@ -2,174 +2,173 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
 body {
-    margin: 0px;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    background: #440444;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background: #440444;
 }
 
 header {
-    max-width: 100vw;
-    padding: 1.2rem 4rem;
-    display: flex;
-    background: #440444;
-    color: #FFFFFF;
-    justify-content: space-between;
-    align-items: center;
+  max-width: 100vw;
+  padding: 1.2rem 4rem;
+  display: flex;
+  background: #440444;
+  color: #ffffff;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logoWrapper {
-    display: grid;
-    grid-template-columns: 50px 1fr;
-    grid-template-rows: 20px 1fr;
-    grid-template-areas: "logo ombudsman"
-                         "logo services";
-    gap: 0.5rem;   
-    height: 50px;                  
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  grid-template-rows: 20px 1fr;
+  grid-template-areas:
+    'logo ombudsman'
+    'logo services';
+  gap: 0.5rem;
+  height: 50px;
 }
 
 .logoImg {
-    grid-area: logo;
-    height: 50px;
-    width: 50px;
-    align-self: center;
+  grid-area: logo;
+  height: 50px;
+  width: 50px;
+  align-self: center;
 }
 
 .logoOm {
-    grid-area: ombudsman;
-    font-size: 1.5rem;
-    font-weight: 700;
+  grid-area: ombudsman;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .logoSe {
-    grid-area: services;
-    font-size: 1.2rem;
-    font-weight: 700;
+  grid-area: services;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
 .topNav {
-    display: flex;
-    list-style-type: none;
+  display: flex;
+  list-style-type: none;
 }
 
 .topNav > li {
-    padding: 1rem 1rem 0px 1rem;
-    font-weight: 600;
+  padding: 1rem 1rem 0px 1rem;
+  font-weight: 600;
 }
 
 .carat {
-    height: 17px;
-    position: relative;
-    top:2px;
+  height: 17px;
+  position: relative;
+  top: 2px;
 }
 
 .complainNowBtn {
-    background: radial-gradient(circle at top left, #15b376 0%, #66d9ac 20%);
-    height: 60px;
-    width: 200px;
-    color:#520051;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 1rem 1.5rem;
-    margin-left: 1rem;
-    border: none;
-    border-radius: 0.5rem;
-    transition: 0.4s;
-    cursor: pointer;
+  background: radial-gradient(circle at top left, #15b376 0%, #66d9ac 20%);
+  height: 60px;
+  width: 200px;
+  color: #520051;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 1rem 1.5rem;
+  margin-left: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  transition: 0.4s;
+  cursor: pointer;
 }
 
 .complainNowBtn:hover {
-     background: #10744d;
-     color: #FFFFFF;
-} 
-
+  background: #10744d;
+  color: #ffffff;
+}
 
 .hero {
-    display: flex;
-    flex-direction: column;
-    height: 600px;
-    width: 95%;
-    padding: 4rem 2rem 1rem 4rem; 
-    background-image: radial-gradient(circle at bottom, #520051 50%, #440444 20%);
-
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 95%;
+  padding: 4rem 2rem 1rem 4rem;
+  background-image: radial-gradient(circle at bottom, #520051 50%, #440444 20%);
 }
 
 h2 {
-    font-size: 3rem;
-    margin: 0px;
+  font-size: 3rem;
+  margin: 0px;
 }
 
 .complainingIsntEasy {
-    color: white;
+  color: white;
 }
 
 .weMakeSureItsFair {
-    color: #66d9ac
+  color: #66d9ac;
 }
 
 .whiteText {
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 1.2rem;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.2rem;
 }
 
 .heroIllustration {
-    position: relative;
-    right: 4rem;
+  position: relative;
+  right: 4rem;
 }
 
 .intro {
-    background: #FFFFFF;
-    display: flex;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-between;
-    gap: 5rem;
-    padding: 2rem;
+  background: #ffffff;
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  gap: 5rem;
+  padding: 2rem;
 }
 
 .hello {
-    margin-left: 5rem;
-    align-self: center;
-    color: #440444;
-    min-width: 500px;
+  margin-left: 5rem;
+  align-self: center;
+  color: #440444;
+  min-width: 500px;
 }
 
 .helloHeader {
-    font-weight: 700;
-    font-size: 2rem;
+  font-weight: 700;
+  font-size: 2rem;
 }
 
 .aboutBtn {
-    width: 180px;
-    font-weight: 700;
-    padding: 1.5rem;
-    font-size: 1.2rem;
-    border: solid #440444 1px;
-    border-radius: 10px;
-    color: #440444;
-    background: #FFFFFF;
-    cursor: pointer;
-    transition: all .4s;
+  width: 180px;
+  font-weight: 700;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  border: solid #440444 1px;
+  border-radius: 10px;
+  color: #440444;
+  background: #ffffff;
+  cursor: pointer;
+  transition: all 0.4s;
 }
 
-.aboutBtn:hover{
-    background:#440444;
-    color: #FFFFFF;
+.aboutBtn:hover {
+  background: #440444;
+  color: #ffffff;
 }
 
 .beforeComplaint {
-    background: #e4f9ec;
-    padding: 2rem;
-    border-radius: 10px;
-    color: #440444;
-    max-width: 460px;
-    margin-right: 7rem;
+  background: #e4f9ec;
+  padding: 2rem;
+  border-radius: 10px;
+  color: #440444;
+  max-width: 460px;
+  margin-right: 7rem;
 }
 
 .beforeComplaintHeader {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .beforeComplaintList {
@@ -181,272 +180,340 @@ h2 {
 }
 
 .beforeComplaintList > li > span {
-    color: #440444;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 2rem;
+  color: #440444;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2rem;
 }
 
-.beforeComplaintBtn{
-    background: #66d9ac;
-    color: #440444;
-    font-weight: 700;
-    font-size: 1.3rem;
-    border: none;
-    border-radius: 20px;
-    width: 330px;
-    padding: 1.5rem;
-    cursor: pointer;
-    transition: 0.4s;
+.beforeComplaintBtn {
+  background: #66d9ac;
+  color: #440444;
+  font-weight: 700;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 20px;
+  width: 330px;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: 0.4s;
 }
 
 .beforeComplaintBtn:hover {
-    background: #10744d;
-    color: #FFFFFF;
+  background: #10744d;
+  color: #ffffff;
 }
 
-.whenCanIComplain{
-    background: #FFFFFF;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.whenCanIComplain {
+  background: #ffffff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .whenCanIComplainHeader {
-    font-size: 2rem;
-    font-weight: 700;
-    color: #440444;
-    margin-left: 6.2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #440444;
+  margin-left: 6.2rem;
 }
 
-.whenCanIComplainVideo{
-    justify-self: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 3rem;
+.whenCanIComplainVideo {
+  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
 }
 
 .howItWorks {
-    background: #eeeeff;
-    color: #440444;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    padding-top: 2rem;
+  background: #eeeeff;
+  color: #440444;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  padding-top: 2rem;
 }
 
 .howItWorksHeader {
-    font-weight: 700;
-    font-size: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
 }
 
 .howItWorksPara {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-size: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.2rem;
 }
 
 .process {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr auto 1fr 1fr;
-    grid-template-areas: "one one three three"
-                         "one one three three"
-                         "line line line line"
-                         ". two two four"
-                         ". two two four";
-    width: 100%;   
-    column-gap: 1rem;   
-    height: 600px; 
-    margin-top: 70px;             
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr auto 1fr 1fr;
+  grid-template-areas:
+    'one one three three'
+    'one one three three'
+    'line line line line'
+    '. two two four'
+    '. two two four';
+  width: 100%;
+  column-gap: 1rem;
+  height: 600px;
+  margin-top: 70px;
 }
 
 .processLine {
-    grid-area: line;
+  grid-area: line;
 }
 
 .processHeader {
-    font-size: 1.5rem;
-    align-self: center;
-    justify-self: stretch;
+  font-size: 1.5rem;
+  align-self: center;
+  justify-self: stretch;
 }
 
 .process1 {
-    grid-area: one;
-    padding-left: 6rem;
-    width: 400px;
-    display: grid;
-    grid-template-columns: 50px 1fr;
-    grid-template-rows: 50px 200px;
-    grid-template-areas: "circle1 processhead1"
-                         "horizontal1 processpara1";
-    column-gap: 25px;                    
+  grid-area: one;
+  padding-left: 6rem;
+  width: 400px;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  grid-template-rows: 50px 200px;
+  grid-template-areas:
+    'circle1 processhead1'
+    'horizontal1 processpara1';
+  column-gap: 25px;
 }
 
 #circle1 {
-    grid-area: circle1;
-    position: relative;
-    right: 22px;
-    top: 5px;
+  grid-area: circle1;
+  position: relative;
+  right: 22px;
+  top: 5px;
 }
 
-#numberLine1{
-    grid-area: horizontal1;
-    width: 5px;
-    background: #66d9ac;
-    position: relative;
-    top: 5px;
-    height: 240px;
+#numberLine1 {
+  grid-area: horizontal1;
+  width: 5px;
+  background: #66d9ac;
+  position: relative;
+  top: 5px;
+  height: 240px;
 }
 
-#processHeader1{
-    grid-area: processhead1;
+#processHeader1 {
+  grid-area: processhead1;
 }
 
-#processPara1{
-    grid-area: processpara1;
+#processPara1 {
+  grid-area: processpara1;
 }
 
 .process2 {
-    position: relative;
-    right: 100px;
-    grid-area: two;
-    padding-left: 6rem;
-    width: 500px;
-    display: grid;
-    column-gap: 25px;  
-    grid-template-columns: 50px 1fr;
-    grid-template-rows: 140px 50px 1fr;
-    grid-template-areas: "horizontal2 ."
-                         "circle2 processhead2"
-                         ". processpara2";
+  position: relative;
+  right: 100px;
+  grid-area: two;
+  padding-left: 6rem;
+  width: 500px;
+  display: grid;
+  column-gap: 25px;
+  grid-template-columns: 50px 1fr;
+  grid-template-rows: 140px 50px 1fr;
+  grid-template-areas:
+    'horizontal2 .'
+    'circle2 processhead2'
+    '. processpara2';
 }
 
 #circle2 {
-    grid-area: circle2;
-    position: relative;
-    right: 22px;
-    bottom: 20px;
+  grid-area: circle2;
+  position: relative;
+  right: 22px;
+  bottom: 20px;
 }
 
-#numberLine2{
-    grid-area: horizontal2;
-    width: 5px;
-    background: #66d9ac;
-    position: relative;
-    bottom: 7px;
-    height: 130px;
+#numberLine2 {
+  grid-area: horizontal2;
+  width: 5px;
+  background: #66d9ac;
+  position: relative;
+  bottom: 7px;
+  height: 130px;
 }
 
-#processHeader2{
-    grid-area: processhead2;
-    position: relative;
-    bottom: 20px;
+#processHeader2 {
+  grid-area: processhead2;
+  position: relative;
+  bottom: 20px;
 }
 
-#processPara2{
-    grid-area: processpara2;
-    position: relative;
-    bottom: 20px;
+#processPara2 {
+  grid-area: processpara2;
+  position: relative;
+  bottom: 20px;
 }
-
-
 
 .process3 {
-    position: relative;
-    top: 90px;
-    grid-area: three;
-    padding-left: 6rem;
-    justify-content: start;
-    width: 500px;
-    display: grid;
-    column-gap: 25px;  
-    grid-template-columns: 50px 1fr;
-    grid-template-rows: 50px 400px;
-    grid-template-areas: "circle3 processhead3"
-                         "horizontal3 processpara3";
+  position: relative;
+  top: 90px;
+  grid-area: three;
+  padding-left: 6rem;
+  justify-content: start;
+  width: 500px;
+  display: grid;
+  column-gap: 25px;
+  grid-template-columns: 50px 1fr;
+  grid-template-rows: 50px 400px;
+  grid-template-areas:
+    'circle3 processhead3'
+    'horizontal3 processpara3';
 }
 
 #circle3 {
-    grid-area: circle3;
-        position: relative;
-    right: 22px;
-    top: 5px;
+  grid-area: circle3;
+  position: relative;
+  right: 22px;
+  top: 5px;
 }
 
-#numberLine3{
-    grid-area: horizontal3;
-        width: 5px;
-    background: #66d9ac;
-    position: relative;
-    top: 5px;
-    height: 150px;
+#numberLine3 {
+  grid-area: horizontal3;
+  width: 5px;
+  background: #66d9ac;
+  position: relative;
+  top: 5px;
+  height: 150px;
 }
 
-#processHeader3{
-    grid-area: processhead3;
+#processHeader3 {
+  grid-area: processhead3;
 }
 
-#processPara3{
-    grid-area: processpara3;
-    width: 100%;
+#processPara3 {
+  grid-area: processpara3;
+  width: 100%;
 }
 
 .process4 {
-    grid-area: four;
-    padding-left: 6rem;
-    width: 500px;
-    position: relative;
-    right: 100px;
-    display: grid;
-    column-gap: 25px;  
-    grid-template-columns: 50px 300px;
-    grid-template-rows: 20px 50px 1fr;
-    grid-template-areas: "horizontal4 ."
-                         "circle4 processhead4"
-                         ". processpara4";
+  grid-area: four;
+  padding-left: 6rem;
+  width: 500px;
+  position: relative;
+  right: 100px;
+  display: grid;
+  column-gap: 25px;
+  grid-template-columns: 50px 300px;
+  grid-template-rows: 20px 50px 1fr;
+  grid-template-areas:
+    'horizontal4 .'
+    'circle4 processhead4'
+    '. processpara4';
 }
 
 #circle4 {
-    grid-area: circle4;
-    position: relative;
-    right: 22px;
+  grid-area: circle4;
+  position: relative;
+  right: 22px;
 }
 
-#numberLine4{
-    grid-area: horizontal4;
-            width: 5px;
-    background: #66d9ac;
-    position: relative;
-    bottom: 10px;
-    height: 30px;
+#numberLine4 {
+  grid-area: horizontal4;
+  width: 5px;
+  background: #66d9ac;
+  position: relative;
+  bottom: 10px;
+  height: 30px;
 }
 
-
-#processHeader4{
-    grid-area: processhead4;
+#processHeader4 {
+  grid-area: processhead4;
 }
 
-#processPara4{
-    grid-area: processpara4;
+#processPara4 {
+  grid-area: processpara4;
 }
 
 .circle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    border: none;
-    border-radius: 25px;
-    background: #00a88f;
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  background: #00a88f;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.lowerContainer {
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  background: #e4f9ec;
+  background: -moz-linear-gradient(90deg, #e4f9ec 50%, #ffffff 0%);
+  background: -webkit-linear-gradient(90deg, #e4f9ec 50%, #ffffff 0%);
+  background: -o-linear-gradient(90deg, #e4f9ec 50%, #ffffff 0%);
+  background: -ms-linear-gradient(90deg, #e4f9ec 50%, #ffffff 0%);
+  background: linear-gradient(180deg, #e4f9ec 50%, #ffffff 0%);
+}
+
+.whyUseAndExpect {
+  display: flex;
+  background: #6e64e8;
+  color: #ffffff;
+  width: 80%;
+  padding: 40px;
+  padding-left: 80px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.whyUse {
+  width: 45%;
+  align-self: center;
+}
+
+.whyUseHeader {
+  font-size: 2rem;
+}
+
+.whyUseBtn {
+  padding: 1rem;
+  background: #6e64e8;
+  color: #ffffff;
+  border: solid 3px #ffffff;
+  border-radius: 8px;
+  width: 200px;
+  height: 70px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.expect {
+  width: 55%;
+  justify-self: center;
+  padding-left: 40px;
+}
+
+.expectHeader {
+  font-size: 1.5rem;
+}
+
+.expectUL > li > span {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 3rem;
 }
