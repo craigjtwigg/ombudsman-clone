@@ -517,3 +517,157 @@ h2 {
   font-size: 1.1rem;
   line-height: 3rem;
 }
+
+.resultsContainer {
+  display: flex;
+  background: #ffffff;
+  color: #440444;
+  width: 80%;
+  padding: 40px;
+  padding-left: 80px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.fewerComplaints {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.fewerComplaintsHeader {
+    font-size: 1.6rem;
+}
+
+.fewerComplaintsPara {
+    font-size: 1.1rem;
+}
+
+.resolvedComplaints {
+    display: flex;
+    flex-direction: column;
+}
+
+.resolvedComplaintsBubble {
+    border: solid 5px #ed5d37;
+    background: #ffffff;
+    border-radius: 3px;
+    padding: 40px;
+    width: 400px;
+    margin-left: 40px;
+    z-index: 2;
+}
+
+.resolvedComplaintsNumber{
+    color: #ed5d37;
+    font-size: 4rem;
+    margin: 0px;
+}
+
+.resolvedComplaintsPara {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.resolvedComplaintsBubbleTail {
+    height: 150px;
+    width: 150px;
+    border: solid 5px #ed5d37;
+    border-radius: 80px;
+    z-index: 0;
+    position: relative;
+    bottom: 80px;
+    left: 70px;
+}
+
+.cssMan {
+    width: 150px;
+    height: 150px;
+    background: #ffffff;
+    z-index: 2;
+    position: relative;
+    bottom: 160px;
+    left: 160px;
+}
+
+.cssManHead{
+    border: solid 6px #ff9646;
+    border-radius: 80px;
+    height: 140px;
+    width: 100px;
+    overflow: hidden;
+    z-index: 2;
+    margin: 30px 20px;
+}
+
+.cssManHairMain {
+      border: solid 6px #ff9646;
+      background: #ffffff;
+    border-radius: 80px;
+    height: 140px;
+    width: 100px;
+    position: relative;
+    bottom: 80px;
+    right: 30px;
+    z-index: 3;
+}
+
+.cssManHairSide {
+    border: solid 6px #ff9646;
+    background: #ffffff;
+    border-radius: 80px;
+    height: 140px;
+    width: 100px;
+    position: relative;
+    bottom: 230px;
+    left: 50px;
+    z-index: 2;
+}
+
+.cssManFace {
+    border: solid 6px #ff9646;
+    background: #ffffff;
+    border-radius: 30px;
+    height: 140px;
+    width: 75px;
+   position: relative;
+   bottom: 340px;
+   left: 5px;
+    z-index: 1;
+}
+
+.cssManLeftEye {
+    background: #ff9646;
+    height: 12px;
+    width: 12px;
+    border-radius: 6px 6px 0 0;
+    z-index: 2;
+    position: relative;
+    top: 115px;
+    left: 10px;
+}
+
+.cssManRightEye {
+    background: #ff9646;
+    height: 12px;
+    width: 12px;
+    border-radius: 6px 6px 0 0;
+    z-index: 2;
+    position: relative;
+    top: 103px;
+    left: 45px;
+}
+
+.cssManMouth {
+    background: #ff9646;
+    height: 12px;
+    width: 12px;
+    border-radius: 0 0 6px 6px;
+    z-index: 4;
+    position: relative;
+    bottom: 335px;
+    left: 40px;
+}
