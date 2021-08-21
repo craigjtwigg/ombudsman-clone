@@ -766,3 +766,17 @@ position: relative;
 .socialIcon:hover {
   filter: none;
 }
+
+.footerBottom {
+  width: 90%;
+  background: #240424;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+.footerPara {
+  width: 50%;
+  text-align: right;
+}
