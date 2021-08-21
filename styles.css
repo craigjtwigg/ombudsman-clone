@@ -679,7 +679,7 @@ h2 {
 .bottomWhiteContainer {
     background: #ffffff;
     width: 100%;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .readyToComplain {
@@ -733,4 +733,36 @@ position: relative;
   border-radius: 10px;
   position: relative;
   z-index: 2;
+}
+
+.footerTop {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.footerUL {
+  list-style: none;
+  font-size: 1.2rem;
+  position: relative;
+  right: 40px;
+  line-height: 40px;
+}
+
+.socials {
+  display: grid;
+  grid-template-columns: 50px 50px;
+  gap: 30px;
+}
+
+.socialIcon {
+  filter: brightness(0) invert(1);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.socialIcon:hover {
+  filter: none;
 }
