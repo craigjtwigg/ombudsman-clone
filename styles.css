@@ -476,6 +476,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
+  margin-bottom: 0px;
 }
 
 .whyUse {
@@ -528,13 +529,15 @@ h2 {
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 0px;
 }
 
 .fewerComplaints {
     display: flex;
     flex-direction: column;
     margin-right: 40px;
+    position: relative;
+    top: 100px;
 }
 
 .fewerComplaintsHeader {
@@ -548,6 +551,7 @@ h2 {
 .resolvedComplaints {
     display: flex;
     flex-direction: column;
+    height: 400px;
 }
 
 .resolvedComplaintsBubble {
@@ -573,13 +577,13 @@ h2 {
 }
 
 .resolvedComplaintsBubbleTail {
-    height: 150px;
-    width: 150px;
+    min-height: 100px;
+    width: 100px;
     border: solid 5px #ed5d37;
-    border-radius: 80px;
+    border-radius: 55px;
     z-index: 0;
     position: relative;
-    bottom: 80px;
+    bottom: 55px;
     left: 70px;
 }
 
@@ -587,10 +591,10 @@ h2 {
     width: 150px;
     height: 150px;
     background: #ffffff;
-    z-index: 2;
+    z-index: 1;
     position: relative;
-    bottom: 160px;
-    left: 160px;
+    bottom: 110px;
+    left: 130px;
 }
 
 .cssManHead{
@@ -670,4 +674,63 @@ h2 {
     position: relative;
     bottom: 335px;
     left: 40px;
+}
+
+.bottomWhiteContainer {
+    background: #ffffff;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.readyToComplain {
+  background: #00a88f;
+  color: #440444;
+  width: 80%;
+  height: 280px;
+  padding: 40px;
+  padding-left: 80px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.readyToComplainCurve {
+  height: 2000px;
+  width: 2000px;
+  border-radius: 1000px;
+  background: #66d9ac;
+  position: relative;
+  bottom: 500px;
+  z-index: 0;
+}
+
+
+.readyToComplainHeader {
+  font-size: 2rem;
+  z-index: 2;
+position: relative;
+}
+
+.readyToComplainPara {
+  position: relative;
+  z-index: 2;
+  font-size: 1.1rem;
+}
+
+.readyToComplainBtn {
+  margin-top: 20px;
+  background: #ffffff;
+  color: #440444;
+  height: 65px;
+  width: 250px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
 }
