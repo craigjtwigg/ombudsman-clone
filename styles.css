@@ -78,7 +78,6 @@ header {
 
 
 
-
 .complainNowBtn {
   background: radial-gradient(circle at top left, #15b376 0%, #66d9ac 20%);
   height: 60px;
@@ -129,11 +128,13 @@ header {
 .hero {
   display: flex;
   flex-direction: column;
-  height: 600px;
+  min-height: 600px;
   width: 95%;
   padding: 4rem 2rem 1rem 4rem;
   background-image: radial-gradient(circle at bottom, #520051 50%, #440444 20%);
 }
+
+
 
 h2 {
   font-size: 3rem;
@@ -1002,4 +1003,37 @@ DROPDOWNS
   width: 150px;
   list-style: none;
   font-weight: 700;
+}
+
+.mobile {
+  display: none;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    background: #FFFFFF;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+  }
+
+  .cssManMobile {
+    position: absolute;
+    top: 100px;
+    right: 30vw;
+  }
+
+  .mobileMessage {
+    max-width: 300px;
+    text-align: center;
+    margin-top: 50px;
+    color:#ed5d37
+  }
 }
