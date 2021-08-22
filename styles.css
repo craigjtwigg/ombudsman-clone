@@ -1009,6 +1009,10 @@ DROPDOWNS
   display: none;
 }
 
+.cssManMobile {
+  display: none;
+}
+
 
 @media only screen and (max-width: 900px) {
   .desktop {
@@ -1028,6 +1032,7 @@ DROPDOWNS
     position: absolute;
     top: 100px;
     right: 30vw;
+    display: block;
   }
 
   .mobileMessage {
